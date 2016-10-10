@@ -62,9 +62,9 @@ gulp.task('views-css', function () {
 
 gulp.task('views-html', function () {
   return gulp.src(config.views.html.source)
-    .pipe(inline())
+    // .pipe(inline())
     .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(minline())
+    // .pipe(minline())
   .pipe(gulp.dest(config.build + config.views.html.target));
 });
 
