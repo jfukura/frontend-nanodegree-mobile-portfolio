@@ -85,7 +85,7 @@ gulp.task('views-img', function() {
 gulp.task('css', function () {
   return gulp.src(config.css.source)
   .pipe(cssmin())
-  .pipe(gulp.dest(config.build + config.css.target))
+  .pipe(gulp.dest(config.build + config.css.target));
 });
 
 gulp.task('html', function () {
