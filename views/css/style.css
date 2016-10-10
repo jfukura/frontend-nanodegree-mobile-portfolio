@@ -17,6 +17,10 @@ input {
   font-size: 18px;
 }
 
+h4 {
+  text-transform: capitalize;
+}
+
 form {
   display: inline-block;
 }
@@ -31,7 +35,7 @@ form {
 
 .mover {
   position: fixed;
-  width: 256px;
+  width: 76px;
   z-index: -1;
 }
 
