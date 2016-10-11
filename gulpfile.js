@@ -146,7 +146,7 @@ gulp.task('psi-desktop', function () {
 // psi sequence with 'browser-sync-psi' instead
 gulp.task('psi-seq', function (cb) {
   return sequence(
-    'build',
+    // 'build',
     'serve',
     'ngrok-url',
     'psi-desktop',
